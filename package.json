@@ -1,0 +1,30 @@
+{
+  "name": "timestam-microservice",
+  "version": "1.0.0",
+  "description": "An API for the FCC challenges",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "node.js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabolopez90/Timestamp-Microservice.git"
+  },
+  "keywords": [
+    "API",
+    "FCC",
+    "node.js"
+  ],
+  "author": "Gabriel Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabolopez90/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/gabolopez90/Timestamp-Microservice#readme"
+}
