@@ -7,7 +7,6 @@ var app = express();
 
 //Serve the static html and css files
 app.use(express.static(path.join(__dirname, "/client/")));
-app.use(express.static(path.join(__dirname, "/client/css/")));
 
 //To handle the get request using express
 app.get("/:request", function(req, res){
@@ -41,5 +40,5 @@ app.listen(process.env.PORT, function(){
 
 //For the query check
 function isNumeric(num){
-  return !isNaN(num)
+  return !isNaN(num);
 }
