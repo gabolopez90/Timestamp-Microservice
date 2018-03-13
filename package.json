@@ -4,13 +4,14 @@
   "description": "An API for the FCC challenges",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.16.2",
-    "moment": "^2.20.1",
+    "express": "^4.16.3",
+    "moment": "^2.21.0",
     "node.js": "^0.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"    
   },
   "repository": {
     "type": "git",
