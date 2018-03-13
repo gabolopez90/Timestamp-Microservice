@@ -34,11 +34,11 @@ app.get("/:request", function(req, res){
     }
 });
 
-app.listen(process.env.PORT, function(){
-    console.log("Now listening on port "+ process.env.PORT);
-});
-
 //For the query check
 function isNumeric(num){
   return !isNaN(num);
 }
+
+var listener = app.listen(process.env.PORT, function(){
+    console.log("Now listening on port "+ listener.address().port);
+});
